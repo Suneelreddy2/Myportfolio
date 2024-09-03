@@ -198,6 +198,7 @@ a:hover {
 
 .btn-color-2:hover {
   background-color: rgb(226, 226, 226);
+  cursor:pointer;
 }
 
 #about {
