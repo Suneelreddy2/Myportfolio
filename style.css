@@ -198,7 +198,6 @@ a:hover {
 
 .btn-color-2:hover {
   background-color: rgb(226, 226, 226);
-  cursor:pointer;
 }
 
 #about {
@@ -342,4 +341,48 @@ footer p {
   font-size: 1rem;
   font-weight: 300;
   color: rgb(151, 151, 151);
+}
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.skills-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 120px;
+  padding: 1rem;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 0.7rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 300ms ease, box-shadow 300ms ease;
+}
+
+.skill-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.skill-icon {
+  width: 60px;
+  height: auto;
+}
+
+.skill-item p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(85, 85, 85);
 }
